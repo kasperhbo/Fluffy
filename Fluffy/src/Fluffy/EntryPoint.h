@@ -7,10 +7,9 @@ extern Fluffy::Application* Fluffy::CreateApplication();
 int main(int argc, char** argv)
 {
 	Fluffy::Log::Init();
-
-	FL_CORE_WARN("Initialize Log");
-	FL_CLIENT_INFO("Hello Log");
-
+	
+	std::string motd = "Hello And Welcome By The Fluffy Game Engine!";
+	FL_CORE_INFO(motd); 
 
 	auto app = Fluffy::CreateApplication();
 	app->Run();

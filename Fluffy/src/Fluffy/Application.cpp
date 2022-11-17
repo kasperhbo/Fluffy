@@ -9,6 +9,7 @@ namespace Fluffy
 	Fluffy::Application::~Application()
 	{
 	}
+
 	void Application::Run()
 	{
 		while (true);
