@@ -1,0 +1,3 @@
+[submodule "FluffyEngine/vendor/spdlog"]
+	path = FluffyEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
