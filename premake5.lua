@@ -18,6 +18,9 @@ project "Fluffy"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "fepch.h"	
+	pchsource "Fluffy/src/fepch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",
@@ -26,6 +29,7 @@ project "Fluffy"
 
 	includedirs
 	{
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include"
 	}
 

@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Fluffy {
 
 	class FLUFFY_API WindowResizeEvent : public Event

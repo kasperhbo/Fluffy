@@ -1,10 +1,8 @@
 #pragma once
 
+#include "fepch.h"
+
 #include "../Core.h"
-
-#include <string>
-#include <functional>
-
 
 namespace Fluffy
 {
